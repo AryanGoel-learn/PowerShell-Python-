@@ -6,6 +6,7 @@ def main():
 
     while True:
         sys.stdout.write("$ ")
+        sys.stdout.flush()
 
         command = input()
 
